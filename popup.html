@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1 class="header">Seamless Study</h1>
+    <div class="illustration">
+        <img src="no_fav.png" alt="no sessions found">
+    </div>
+    <div class="textContent">
+        <h2>No Sessions Saved</h2>
+        <p class="headerContent">Create a session now! <br> Save your tabs and resume
+            your study after a break in just one click! </p>
+    </div>
+    <div>
+        <button a href="#" id="createSession" class="main-btn">Create A Session Now!</button>
+    </div>
+    <div class="checkboxContainer">
+        <input type="checkbox" id="tabStateSelector" onclick="dontCloseTabs()">
+        <label for="tabStateSelector">Keep tabs open while saving</label>
+    </div>
+
+    <div class="sessionDiv">
+
+    </div>
+
+    <script src="js/moment-with-locales.min.js"></script>
+    <script src="js/builder.js"></script>
+    <script src="js/popup.js"></script>
+    <script src="js/card-action.js"></script>
+    <script src="js/save-tabs.js"></script>
+    <script src="js/base-popup.js"></script>
+</body>
+
+</html>
